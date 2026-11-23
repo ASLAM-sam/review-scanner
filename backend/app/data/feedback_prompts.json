@@ -1,0 +1,2801 @@
+[
+  {
+    "id": "p_en_foo_001",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The food quality was exceptional and cooked to perfection.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_002",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "Every dish tasted like it was made with top-tier fresh ingredients.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_003",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The meat was tender, juicy, and well-seasoned throughout.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_004",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The flavors were rich, authentic, and well-balanced.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_005",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "You can truly taste the craftsmanship and culinary care in every course.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_006",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The starters and main courses were both consistently delicious.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_007",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The texture and aroma of each dish were completely spot on.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_008",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "A memorable culinary experience from the very first bite.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_009",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The breads and sides were served warm, soft, and freshly prepared.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_010",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The chef's special dish exceeded all our dining expectations.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_011",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "Consistently high cooking standards across every single item ordered.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_012",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The balance of spices was perfectly dialed in for our taste.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_013",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "Rich depth of flavor without feeling overly greasy or heavy.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_014",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "Outstanding food quality that will keep us coming back regularly.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_015",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The food quality met standard casual dining expectations.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_016",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The dishes were decent but did not particularly stand out.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_017",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "Some dishes were great while others were fairly ordinary.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_018",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "A typical dining experience with standard everyday food quality.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_019",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The cooking was satisfactory for a quick casual lunch.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_020",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The flavors were mild and palatable, though not especially memorable.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_021",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The food quality was inconsistent with what we hoped for.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_022",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The dishes felt under-seasoned and lacked depth of flavor.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_023",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The meat was slightly tough and overcooked in our main course.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_024",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "A few items felt like they had been sitting under a warmer too long.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_025",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The food felt a bit too oily and heavy for our preference.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_026",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "The recipes could benefit from more authentic culinary seasoning.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_027",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The ingredients tasted exceptionally fresh and vibrant.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_028",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "Crisp vegetables and garden-fresh herbs in every single dish.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_029",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The seafood was extraordinarily fresh and cleanly prepared.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_030",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The food arrived piping hot, straight from the kitchen stove.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_031",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "You could clearly tell the sauces were made fresh today.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_032",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "Clean, natural flavors without any artificial aftertaste.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_033",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The salad greens were crisp, crunchy, and freshly tossed.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_034",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "Freshly ground spices gave the gravy incredible aroma and depth.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_035",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "A wonderful burst of fresh flavors in every bite.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_036",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The dairy and cheeses tasted wholesome, rich, and very fresh.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_037",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "Unbeatable fresh taste from the appetizers right through to dessert.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_038",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The baked items tasted oven-fresh and wonderfully light.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_039",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The freshness was average, consistent with standard dining.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_040",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The taste was acceptable, though not strikingly fresh.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_041",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "Felt like standard pantry ingredients were used for the meal.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_042",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The temperature was warm enough, though not straight from the flame.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_043",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The freshness varied noticeably between the appetizers and the mains.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_044",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "Average everyday taste that satisfied hunger without delighting.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_045",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The vegetables lacked crispness and felt slightly tired.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_046",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The dish had a reheated taste rather than freshly prepared cooking.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_047",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The food arrived lukewarm rather than fresh and steaming hot.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_048",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The bread felt a bit dry, as if prepared several hours earlier.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_049",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The herbs and garnishes did not look or taste fresh.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_tas_050",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "The seasoning had an overpowering saltiness that masked ingredient freshness.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_051",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "The plating was artistic, elegant, and restaurant-worthy.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_052",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "Beautiful visual presentation that made the food immediately inviting.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_053",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "Great attention to detail with vibrant color contrasts and garnishes.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_054",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "The portion layout on the plate was clean, balanced, and appetizing.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_055",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "Every plate arrived looking like a work of culinary art.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_056",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "Vibrant, colorful ingredients that made the dishes visually pop.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_057",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "Served in attractive tableware that elevated the whole dining experience.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_058",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "The sizzling presentation at our table was exciting and fun.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_059",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "Generous portions arranged with noticeable care and elegance.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_060",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "The dessert presentation was stunning and worthy of a photograph.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_061",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "Clean edges and immaculate plating on every single dish served.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_062",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "A genuine feast for the eyes before we even took the first bite.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_063",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "The presentation was simple, neat, and functional.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_064",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "Standard casual plating without any special visual flourishes.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_065",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "The presentation was tidy, though fairly plain in appearance.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_066",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "Food was served practically, focusing on substance over visual style.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_067",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "The plating was tidy enough for a neighborhood family eatery.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_068",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "Adequate visual layout without memorable artistic appeal.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_069",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "The plating looked somewhat rushed, crowded, and messy.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_070",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "Sauce splatters on the rim of the plate should be wiped before serving.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_071",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "The visual arrangement looked dull and lacked vibrant colors.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_072",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "The dish looked unappealing compared to menu expectations.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_073",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "Garnishes looked wilted and added little value to the presentation.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_foo_074",
+    "category": "food_presentation",
+    "category_name": "Food Presentation",
+    "text": "The serving platters and bowls felt slightly worn or chipped.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_075",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "The staff was remarkably polite, warm, and genuinely attentive.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_076",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "Our server was knowledgeable and gave spot-on menu recommendations.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_077",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "We were greeted with warm smiles from the moment we walked in.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_078",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "The team anticipated our table needs before we even had to ask.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_079",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "Courteous and respectful staff who made us feel like honored guests.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_080",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "Servers checked in at the right moments without hovering or interrupting.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_081",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "The staff accommodated our dietary preferences with great kindness.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_082",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "Exceptional hospitality that made our family dinner feel special.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_083",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "The manager stopped by our table to ensure everything was satisfactory.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_084",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "Friendly, cheerful, and patient service even during a busy rush.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_085",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "The waitstaff handled our special requests smoothly and cheerfully.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_086",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "High professionalism, quick smiles, and attentive hospitality etiquette.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_087",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "Staff treated us with exceptional courtesy throughout the entire meal.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_088",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "The service was functional and took care of basic dining needs.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_089",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "Staff were polite, though interaction was very minimal and brief.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_090",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "Standard service without any notable memorable highs or lows.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_091",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "The staff took orders and cleared plates adequately.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_092",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "Service was businesslike, straightforward, and no-nonsense.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_093",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "Staff fulfilled requests when asked, though not particularly proactive.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_094",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "The staff seemed distracted, inattentive, and hard to flag down.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_095",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "Our server appeared overwhelmed and forgot a key request we made.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_096",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "We had to ask multiple times for basic table items like water and napkins.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_097",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "The greeting at the front reception felt rather cold and indifferent.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_098",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "Staff could show more warmth, patience, and customer friendliness.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ser_099",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "The waitstaff seemed to rush us through ordering and clearing.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_100",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Incredibly fast service from seating right through to the first course.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_101",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Food arrived promptly without any unnecessary or frustrating waiting.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_102",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Appetizers and drinks were brought out within minutes of ordering.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_103",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "The timing between courses was paced perfectly for our table.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_104",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Quick and efficient ordering, billing, and payment process.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_105",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Impressively fast kitchen turnaround during the peak dining rush.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_106",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Drinks were refilled promptly without having to flag down staff.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_107",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Everything arrived hot and fast without our meal feeling hurried.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_108",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "A great spot when you need a speedy yet delicious sit-down meal.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_109",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Smooth and rapid table turnover without feeling rushed to leave.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_110",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Our orders were taken immediately and processed without delay.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_111",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "An efficient, well-coordinated kitchen that kept our dining flow moving.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_112",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "The wait time was standard and expected for a sit-down restaurant.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_113",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Service speed was reasonable, neither remarkably fast nor slow.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_114",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Pacing between dishes was acceptable for our party.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_115",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Took around 15 to 20 minutes for mains, which felt reasonable.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_116",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Average wait times considering the size of the dining crowd.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_117",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Speed was tolerable for a weekend evening dinner service.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_118",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "The wait time for our food was considerably longer than expected.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_119",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "We waited too long between the appetizers and the main courses.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_120",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Clearing the table and getting the final bill took too much time.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_121",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "The kitchen seemed backed up, causing substantial delays for our table.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_122",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "We waited quite a while at our table before anyone came to take our order.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_spe_123",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "Drinks took almost as long to arrive as the cooked food.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_124",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Charming, cozy atmosphere that immediately sets a relaxed mood.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_125",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Tasteful interior decor with warm, pleasant, and flattering lighting.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_126",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Background music was played at the perfect conversational volume.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_127",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Modern, stylish interior that feels upscale yet warm and welcoming.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_128",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Comfortable seating and well-spaced dining tables for privacy.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_129",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "A wonderful vibe suitable for romantic dates, friends, and family dinners.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_130",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Pleasant room temperature with fresh, well-ventilated air.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_131",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "A serene, calming dining atmosphere away from outside street noise.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_132",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Beautiful aesthetic touches that add genuine charm to the dining room.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_133",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Lively, upbeat atmosphere with wonderful dining energy all around.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_134",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "The seating layout and lighting created a cozy, intimate space.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_135",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Thoughtful interior design that gives the restaurant distinct personality.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_136",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Standard dining room setup with conventional lighting and furnishings.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_137",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "The atmosphere was fine, typical of a casual neighborhood restaurant.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_138",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Nothing particularly distinctive about the decor, but clean and comfortable.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_139",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Music was generic background radio, which was completely harmless.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_140",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Basic seating that was comfortable enough for a quick meal.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_141",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "Average ambience suitable for a routine everyday meal.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_142",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "The background music was too loud to hold an easy conversation.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_143",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "The dining area felt slightly cramped with closely packed tables.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_144",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "The lighting was overly harsh and bright for an evening meal.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_145",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "The dining room temperature felt uncomfortably warm or drafty.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_146",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "The dining room had too much echo, making it noisy and chaotic.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_res_147",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "The interior decor and furnishings are beginning to look worn.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_148",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Impeccably clean dining area, spotless tables, and shiny floors.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_149",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Cutlery and glassware were completely spotless, dry, and polished.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_150",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "The restrooms were thoroughly clean, fresh-smelling, and well-stocked.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_151",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Tables were wiped and sanitized promptly after guests departed.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_152",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Noticeably high hygiene standards throughout the entire premise.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_153",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Clean uniforms and well-groomed presentation by all service staff.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_154",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "The visible kitchen and food prep area looked spotless and orderly.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_155",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Crisp, clean menus, clean salt shakers, and tidy condiment stations.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_156",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Clear and reassuring emphasis on guest hygiene and clean dining.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_157",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Fresh, pleasant scent in the dining room with zero lingering kitchen odors.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_158",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Spotless cloth napkins, sparkling plates, and clean serving platters.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_159",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "A reassuringly hygienic environment that immediately builds dining trust.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_160",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Cleanliness was acceptable and within basic commercial dining norms.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_161",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Tables were cleared, though not immediately wiped down with sanitizer.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_162",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "The restroom was adequately maintained, though basic in amenities.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_163",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Standard cleanliness that you would expect at any busy neighborhood eatery.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_164",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "No obvious hygiene issues observed; general tidiness was satisfactory.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_165",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Average cleanliness with no major complaints or special praise.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_166",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "The tabletop felt slightly sticky and needed a more thorough wipe.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_167",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "A water glass or fork had noticeable water spots or smudges.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_168",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "The restroom could benefit from more frequent cleaning and supplies.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_169",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "The floor had food crumbs left behind from previous diners.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_170",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Menu cards felt greasy and should be sanitized between guests.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_cle_171",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "Condiment containers on the table needed wiping down.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_172",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Fantastic family-friendly restaurant with a warm, welcoming vibe.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_173",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Great kid-friendly food options that children genuinely enjoyed.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_174",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "High chairs and child amenities were provided promptly without asking.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_175",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Spacious seating that accommodated our multi-generational family comfortably.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_176",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "The staff was especially kind, patient, and sweet with our young children.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_177",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "A diverse menu with great variety so every family member found something they loved.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_178",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Comfortable, wholesome setting ideal for relaxed family get-togethers.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_179",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Portions were generous and easily shared amongst the entire family.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_180",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Our family dinner was peaceful, joyful, and thoroughly enjoyable.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_181",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "A great dining place to celebrate family birthdays and milestone occasions.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_182",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Noise levels were comfortable and very forgiving for families with kids.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_183",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "The staff went out of their way to make our elderly family members comfortable.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_184",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Standard family dining setting with adequate seating space.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_185",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Kids found something to eat, though options were fairly basic.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_186",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Acceptable for a family meal, though not specifically geared for young children.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_187",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "A typical restaurant experience for an everyday family outing.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_188",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Average family seating without special children's accommodations.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_189",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Fine for teenagers and older family members, less ideal for toddlers.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_190",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "The menu could use more healthy, kid-friendly options for families.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_191",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "The seating layout was too tight to maneuver a stroller comfortably.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_192",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "High chairs were either limited in quantity or not wiped down.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_193",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Staff seemed slightly impatient with young children at the table.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_194",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "Food took a bit too long, which is difficult when dining with hungry children.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_fam_195",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "No changing station or family amenities in the restroom.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_196",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Exceptional value considering the high food quality and portion sizes.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_197",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Very fair and reasonable pricing for such skilled culinary standards.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_198",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Generous portion sizes that left our whole party completely satisfied.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_199",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Great value combo deals, specials, and competitive lunch pricing.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_200",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Worth every single rupee spent today for the quality delivered.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_201",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "High-end restaurant flavors at very accessible, fair price points.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_202",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Left the restaurant feeling we received outstanding dining value.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_203",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Affordable family dining without sacrificing fresh ingredients or quality.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_204",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Great price-to-quality ratio compared to other restaurants in this area.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_205",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Transparent billing with no unexpected hidden fees or surprise charges.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_206",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Generous accompaniments, sauces, and sides included without extra nickel-and-diming.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_207",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "One of the best value dining spots in town for quality and taste.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_208",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Pricing is reasonable and right in line with current market rates.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_209",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Fair value: the food quality and portion sizes matched the price point.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_210",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Portion sizes were standard for what was charged on the menu.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_211",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Neither inexpensive nor overpriced for this style of restaurant.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_212",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Decent value, acceptable for a routine casual meal.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_213",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Standard competitive pricing for the neighborhood dining scene.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_214",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "The portion sizes were noticeably small for the prices charged.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_215",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Felt somewhat overpriced for the quality and preparation delivered.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_216",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "A bit on the expensive side compared to similar dining alternatives nearby.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_217",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Side dishes and beverage extras were priced higher than expected.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_218",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "The final bill felt disproportionate to the overall dining experience.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_val_219",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "Beverage or service add-ons felt noticeably marked up.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_220",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "The mocktails and beverages were delightfully refreshing and balanced.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_221",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Freshly brewed tea and coffee with rich aroma and authentic flavor.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_222",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Cold drinks were chilled to perfection and beautifully garnished.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_223",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Creative beverage menu featuring unique flavor combinations.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_224",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Fresh fruit juices tasted completely natural and freshly squeezed.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_225",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "The signature house specialty beverage was absolutely phenomenal.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_226",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Water glasses were kept topped up with chilled, crisp water.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_227",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Well-crafted beverages that paired wonderfully with our meals.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_228",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Great temperature and aroma on both hot and iced beverage orders.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_229",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Drink servings were generous and arrived in stylish glassware.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_230",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Smoothies and shakes were thick, creamy, and packed with flavor.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_231",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "A thoughtfully curated drink menu with something refreshing for everyone.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_232",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "The beverage selection was standard and as expected for casual dining.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_233",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Drink options were adequate, featuring typical sodas, juices, and tea.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_234",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Coffee was acceptable, standard machine brew with decent taste.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_235",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "The specialty drink was okay, though leaned slightly sweet for our taste.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_236",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Standard drink temperatures and everyday glassware presentation.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_237",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Satisfactory drink options to accompany a casual lunch or dinner.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_238",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "The iced drinks arrived with too much ice, diluting the flavor quickly.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_239",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "The beverage was overly sweet and tasted artificial rather than fresh.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_240",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Hot coffee or tea was served lukewarm instead of steaming hot.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_241",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Limited selection of healthy, sugar-free, or non-carbonated drinks.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_242",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "Our drinks arrived long after the hot food was already served.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_dri_243",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "The carbonated beverage tasted slightly flat and lacked crisp fizz.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_244",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "An exceptional dining experience that our entire party thoroughly enjoyed.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_245",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Everything from the appetizers to the hospitality was top notch.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_246",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "We had a wonderful dining time and will definitely return very soon.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_247",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Quickly becoming one of our favorite dining spots in the neighborhood.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_248",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Consistently wonderful dining experience every single time we visit.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_249",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "A delightful meal that brightened up our day and satisfied our cravings.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_250",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Will enthusiastically recommend this restaurant to our friends and colleagues.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_251",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Exceeded all our expectations across food, hospitality, and atmosphere.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_252",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "A true five-star dining experience from the moment we arrived until we left.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_253",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Left the restaurant feeling happy, satisfied, and wonderfully taken care of.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_254",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Our guests from out of town were thoroughly impressed with everything.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_255",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Thank you to the kitchen and floor staff for an unforgettable evening!",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_256",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Flawless execution by both the culinary team and the front of house.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_257",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "A perfect dining destination for celebrating special occasions with loved ones.",
+    "language": "en",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_258",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "An overall satisfactory visit that met our basic dining expectations.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_259",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "A decent meal for lunch, nothing extraordinarily memorable but good.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_260",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "An average restaurant experience comparable to most casual eateries.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_261",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Had a pleasant enough visit, standard across food, service, and vibe.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_262",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Good for a quick meal on the go; will likely drop by again if nearby.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_263",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "A balanced dining experience with a few nice highs and minor flaws.",
+    "language": "en",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_264",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "The visit fell somewhat short of the high standards we had hoped for.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_265",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Several small service and food issues combined to dampen the experience.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_266",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "With a few operational adjustments, this restaurant could be much better.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_267",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Hoping for a smoother, more attentive dining experience on our next visit.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_268",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "Did not quite live up to the enthusiastic recommendations we had heard.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_en_ove_269",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "The dining experience was underwhelming considering our expectations.",
+    "language": "en",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_te_foo_001",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "ఆహారం చాలా రుచిగా, తాజాగా మరియు వేడిగా అందించబడింది.",
+    "language": "te",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_te_foo_002",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "ఆహారం నాణ్యత సాధారణంగా ఉంది, పరవాలేదు.",
+    "language": "te",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_te_foo_003",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "ఆహారంలో మసాలాలు మరియు రుచి కొంచెం మెరుగుపరచవచ్చు.",
+    "language": "te",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_te_tas_004",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "కూరగాయలు మరియు పదార్థాలు చాలా తాజాగా ఉన్నాయి.",
+    "language": "te",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_te_tas_005",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "ఆహారం వేడిగా రాలేదు, కొంచెం చల్లగా ఉంది.",
+    "language": "te",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_te_ser_006",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "సిబ్బంది చాలా మర్యాదగా మరియు త్వరగా సేవలందించారు.",
+    "language": "te",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_te_ser_007",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "సర్వీస్ సాధారణంగా ఉంది.",
+    "language": "te",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_te_ser_008",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "ఆర్డర్ తీసుకోవడానికి సిబ్బంది కొంచెం ఎక్కువ సమయం తీసుకున్నారు.",
+    "language": "te",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_te_spe_009",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "ఆర్డర్ చేసిన కొద్ది నిమిషాల్లోనే భోజనం వచ్చింది.",
+    "language": "te",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_te_spe_010",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "ఆహారం రావడానికి చాలా సమయం వేచి ఉండాల్సి వచ్చింది.",
+    "language": "te",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_te_res_011",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "రెస్టారెంట్ వాతావరణం, లైటింగ్ మరియు కూర్చునే ప్రదేశం చాలా బాగుంది.",
+    "language": "te",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_te_res_012",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "సంగీతం శబ్దం చాలా ఎక్కువగా ఉంది, సంభాషణ కష్టమైంది.",
+    "language": "te",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_te_cle_013",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "టేబుల్స్, ప్లేట్లు మరియు రెస్టారెంట్ చాలా పరిశుభ్రంగా ఉన్నాయి.",
+    "language": "te",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_te_cle_014",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "టేబుల్ శుభ్రతను కొంచెం మెరుగుపరచాలి.",
+    "language": "te",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_te_fam_015",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "కుటుంబంతో కలిసి భోజనం చేయడానికి చాలా మంచి ప్రదేశం.",
+    "language": "te",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_te_val_016",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "ధరకు తగిన పరిమాణం మరియు అద్భుతమైన నాణ్యత.",
+    "language": "te",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_te_val_017",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "పరిమాణంతో పోలిస్తే ధర కొంచెం ఎక్కువగా అనిపించింది.",
+    "language": "te",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_te_dri_018",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "పానీయాలు చాలా రిఫ్రెషింగ్‌గా మరియు రుచిగా ఉన్నాయి.",
+    "language": "te",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_te_ove_019",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "మొత్తం అనుభవం చాలా అద్భుతంగా ఉంది, మళ్ళీ తప్పకుండా వస్తాము.",
+    "language": "te",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_te_ove_020",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "సాధారణ సంతృప్తికరమైన అనుభవం.",
+    "language": "te",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_te_ove_021",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "ఈసారి అనుభవం మేము ఆశించినంతగా లేదు.",
+    "language": "te",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_foo_001",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "खाना बहुत ही स्वादिष्ट, गर्म और उच्च गुणवत्ता वाला था।",
+    "language": "hi",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_foo_002",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "खाने का स्वाद सामान्य और ठीक-ठाक था।",
+    "language": "hi",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_foo_003",
+    "category": "food_quality",
+    "category_name": "Food Quality",
+    "text": "खाने में मसाले और स्वाद को थोड़ा बेहतर किया जा सकता है।",
+    "language": "hi",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_tas_004",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "सब्जियां और सामग्री बिल्कुल ताज़ा और खुशबूदार थीं।",
+    "language": "hi",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_tas_005",
+    "category": "taste_freshness",
+    "category_name": "Taste and Freshness",
+    "text": "खाना पूरी तरह गर्म नहीं था, थोड़ा ठंडा परोसा गया।",
+    "language": "hi",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_ser_006",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "स्टाफ का व्यवहार बहुत ही विनम्र, मददगार और मिलनसार था।",
+    "language": "hi",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_ser_007",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "सर्विस सामान्य थी, कोई खास बात नहीं।",
+    "language": "hi",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_ser_008",
+    "category": "service_staff",
+    "category_name": "Service and Staff Behaviour",
+    "text": "स्टाफ का ध्यान थोड़ा कम था, बुलाने में समय लगा।",
+    "language": "hi",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_spe_009",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "ऑर्डर करने के तुरंत बाद खाना बिना इंतज़ार के आ गया।",
+    "language": "hi",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_spe_010",
+    "category": "speed_of_service",
+    "category_name": "Speed of Service",
+    "text": "खाना टेबल पर आने में उम्मीद से ज्यादा समय लगा।",
+    "language": "hi",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_res_011",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "रेस्टोरेंट का माहौल, सजावट और बैठक व्यवस्था बहुत ही सुखद थी।",
+    "language": "hi",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_res_012",
+    "category": "restaurant_ambience",
+    "category_name": "Restaurant Ambience",
+    "text": "म्यूजिक की आवाज़ काफी तेज़ थी जिससे बातचीत में परेशानी हुई।",
+    "language": "hi",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_cle_013",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "रेस्टोरेंट, टेबल और बर्तन बिल्कुल साफ और स्वच्छ थे।",
+    "language": "hi",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_cle_014",
+    "category": "cleanliness_hygiene",
+    "category_name": "Cleanliness and Hygiene",
+    "text": "टेबल की सफाई पर थोड़ा और ध्यान देने की आवश्यकता है।",
+    "language": "hi",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_fam_015",
+    "category": "family_dining",
+    "category_name": "Family Dining Experience",
+    "text": "परिवार के साथ शानदार समय बिताने के लिए बेहतरीन जगह है।",
+    "language": "hi",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_val_016",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "क्वालिटी और मात्रा के हिसाब से कीमतें बहुत ही वाजिब हैं।",
+    "language": "hi",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_val_017",
+    "category": "value_for_money",
+    "category_name": "Value for Money",
+    "text": "पोर्शन साइज के मुकाबले कीमतें थोड़ी ज्यादा लगीं।",
+    "language": "hi",
+    "sentiment": "improvement",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_dri_018",
+    "category": "drinks_beverages",
+    "category_name": "Drinks and Beverages",
+    "text": "ड्रिंक्स और पेय पदार्थ बहुत ही ताज़ा और स्वादिष्ट थे।",
+    "language": "hi",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_ove_019",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "कुल मिलाकर बहुत ही सुखद अनुभव रहा, हम दोबारा ज़रूर आएंगे।",
+    "language": "hi",
+    "sentiment": "positive",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_ove_020",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "साधारण और संतोषजनक अनुभव रहा।",
+    "language": "hi",
+    "sentiment": "neutral",
+    "is_active": true
+  },
+  {
+    "id": "p_hi_ove_021",
+    "category": "overall_experience",
+    "category_name": "Overall Experience",
+    "text": "आज का अनुभव हमारी उम्मीदों से थोड़ा कम रहा।",
+    "language": "hi",
+    "sentiment": "improvement",
+    "is_active": true
+  }
+]
