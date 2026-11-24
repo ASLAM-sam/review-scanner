@@ -20,6 +20,7 @@ class Settings(BaseSettings):
     APP_NAME: str = "Restaurant QR Feedback & Review Assistance System"
     ENVIRONMENT: str = "development"
     DEBUG: bool = True
+    ENABLE_DOCS: bool = True
     API_V1_PREFIX: str = "/api/v1"
     SECRET_KEY: str = "insecure-default-secret-key-change-in-production-min-32-chars-long"
 
