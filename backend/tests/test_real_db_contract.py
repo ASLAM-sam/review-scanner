@@ -54,18 +54,18 @@ async def test_unique_slug_index_enforcement(mock_db):
 
 
 @pytest.mark.asyncio
-async def test_unique_admin_email_enforcement(mock_db):
-    """Verify MongoDB enforces unique constraint on admin_users.email."""
+async def test_unique_admin_username_enforcement(mock_db):
+    """Verify MongoDB enforces unique constraint on admin_users.username."""
     user1 = AdminUserInDB(
-        email="unique.admin@restaurant.com",
+        username="unique_aslam",
         hashed_password="some_hashed_password",
         is_active=True,
     ).model_dump(exclude={"id"})
     await mock_db[COLLECTION_ADMIN_USERS].insert_one(user1)
 
-    # Attempting duplicate admin email must raise DuplicateKeyError
+    # Attempting duplicate admin username must raise DuplicateKeyError
     user2 = AdminUserInDB(
-        email="unique.admin@restaurant.com",
+        username="unique_aslam",
         hashed_password="another_hashed_password",
         is_active=True,
     ).model_dump(exclude={"id"})

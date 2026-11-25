@@ -12,7 +12,7 @@ import { ErrorAlert } from "@/components/common/ErrorAlert";
 
 export default function AdminLoginPage() {
   const router = useRouter();
-  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
@@ -21,14 +21,14 @@ export default function AdminLoginPage() {
     e.preventDefault();
     setError("");
 
-    if (!email || !password) {
-      setError("Please enter both email and password.");
+    if (!username || !password) {
+      setError("Please enter both username and password.");
       return;
     }
 
     try {
       setIsLoading(true);
-      const res = await api.loginAdmin({ email, password });
+      const res = await api.loginAdmin({ username: username.trim(), password });
       setStoredToken(res.access_token);
       router.push("/admin/dashboard");
     } catch (err) {
@@ -67,11 +67,12 @@ export default function AdminLoginPage() {
               {error && <ErrorAlert message={error} onRetry={() => setError("")} />}
 
               <Input
-                label="Administrator Email"
-                type="email"
-                placeholder="admin@restaurant.com"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
+                label="Administrator Username"
+                type="text"
+                placeholder="aslam"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                autoComplete="username"
                 required
               />
 

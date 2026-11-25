@@ -122,7 +122,7 @@ export const api = {
   },
 
   // Admin authentication
-  loginAdmin: (payload: { email: string; password: string }): Promise<LoginResult> => {
+  loginAdmin: (payload: { username: string; password: string }): Promise<LoginResult> => {
     return request<LoginResult>("/auth/login", {
       method: "POST",
       body: JSON.stringify(payload),

@@ -270,8 +270,8 @@ async def test_cookie_authentication_and_logout(async_client):
     login_res = await async_client.post(
         "/api/v1/auth/login",
         json={
-            "email": "testadmin@restaurant.com",
-            "password": "TestPassword123!",
+            "username": "aslam",
+            "password": "aslam0077",
         },
     )
     assert login_res.status_code == 200
@@ -285,7 +285,7 @@ async def test_cookie_authentication_and_logout(async_client):
         cookies={"admin_access_token": cookie_token},
     )
     assert me_res.status_code == 200
-    assert me_res.json()["data"]["email"] == "testadmin@restaurant.com"
+    assert me_res.json()["data"]["username"] == "aslam"
 
     # 3. Logout
     logout_res = await async_client.post(

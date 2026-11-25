@@ -21,11 +21,11 @@ def test_password_hashing():
 
 
 def test_jwt_token_lifecycle():
-    data = {"sub": "admin@restaurant.com", "custom_claim": "test"}
+    data = {"sub": "aslam", "custom_claim": "test"}
     token = create_access_token(data)
     decoded = decode_access_token(token)
     assert decoded is not None
-    assert decoded["sub"] == "admin@restaurant.com"
+    assert decoded["sub"] == "aslam"
     assert decoded["custom_claim"] == "test"
     assert "exp" in decoded
 
@@ -38,7 +38,7 @@ def test_jwt_invalid_token():
 async def test_admin_login_success(async_client):
     response = await async_client.post(
         "/api/v1/auth/login",
-        json={"email": "testadmin@restaurant.com", "password": "TestPassword123!"},
+        json={"username": "aslam", "password": "aslam0077"},
     )
     assert response.status_code == 200
     body = response.json()
@@ -51,7 +51,7 @@ async def test_admin_login_success(async_client):
 async def test_admin_login_failure(async_client):
     response = await async_client.post(
         "/api/v1/auth/login",
-        json={"email": "testadmin@restaurant.com", "password": "WrongPassword!"},
+        json={"username": "aslam", "password": "WrongPassword!"},
     )
     assert response.status_code == 401
 
@@ -61,7 +61,7 @@ async def test_protected_me_endpoint_authorized(async_client, auth_headers):
     response = await async_client.get("/api/v1/auth/me", headers=auth_headers)
     assert response.status_code == 200
     body = response.json()
-    assert body["data"]["email"] == "testadmin@restaurant.com"
+    assert body["data"]["username"] == "aslam"
 
 
 @pytest.mark.asyncio

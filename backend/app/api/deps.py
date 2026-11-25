@@ -73,11 +73,11 @@ async def get_current_admin(
     except jwt.PyJWTError:
         raise unauthorized_exc
 
-    user_email = payload.get("sub")
-    if not user_email:
+    user_username = payload.get("sub")
+    if not user_username:
         raise unauthorized_exc
 
-    user = await auth_service.get_by_email(db, user_email)
+    user = await auth_service.get_by_username(db, user_username)
     if not user or not user.is_active:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,

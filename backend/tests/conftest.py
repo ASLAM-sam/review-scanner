@@ -51,9 +51,9 @@ async def mock_db():
 
     # Seed admin user
     admin = AdminUserInDB(
-        email="testadmin@restaurant.com",
-        hashed_password=get_password_hash("TestPassword123!"),
-        full_name="Test Administrator",
+        username="aslam",
+        hashed_password=get_password_hash("aslam0077"),
+        full_name="Aslam (Test Administrator)",
         is_active=True,
     )
     admin_doc = admin.model_dump(by_alias=False, exclude={"id"})
@@ -80,7 +80,7 @@ async def async_client(mock_db):
 @pytest.fixture
 def admin_token():
     """Generate a valid JWT token for the seeded test admin."""
-    return create_access_token(data={"sub": "testadmin@restaurant.com"})
+    return create_access_token(data={"sub": "aslam"})
 
 
 @pytest.fixture

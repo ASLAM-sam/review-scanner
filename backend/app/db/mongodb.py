@@ -149,11 +149,15 @@ async def init_db_indexes(db: AsyncIOMotorDatabase) -> None:
             name="idx_restaurant_slug_unique",
         )
 
-        # 2. admin_users: unique email index
+        # 2. admin_users: unique username index
+        try:
+            await db[COLLECTION_ADMIN_USERS].drop_index("idx_admin_email_unique")
+        except Exception:
+            pass
         await db[COLLECTION_ADMIN_USERS].create_index(
-            [("email", pymongo.ASCENDING)],
+            [("username", pymongo.ASCENDING)],
             unique=True,
-            name="idx_admin_email_unique",
+            name="idx_admin_username_unique",
         )
 
         # 3. qr_scans: created_at index for monthly analytics, session_id, and ip_hash for unique stats

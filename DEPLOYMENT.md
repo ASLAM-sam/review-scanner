@@ -79,8 +79,8 @@ RESTAURANT_TIMEZONE="Asia/Kolkata"
 # ==============================================================================
 # 4. INITIAL ADMIN CREDENTIALS
 # ==============================================================================
-INITIAL_ADMIN_EMAIL=admin@paradiserestaurant.com
-INITIAL_ADMIN_PASSWORD=ReplaceWithStrongPassword#2026
+INITIAL_ADMIN_USERNAME=aslam
+INITIAL_ADMIN_PASSWORD=aslam0077
 
 # ==============================================================================
 # 5. COMMERCIAL SUBSCRIPTION & BILLING

@@ -140,7 +140,7 @@ async def create_renewal_order(
     idempotency_key = payload.idempotency_key if payload else None
     order_data = await subscription_service.create_renewal_order(
         db=db,
-        admin_email=current_admin.email,
+        admin_email=getattr(current_admin, "email", None) or f"{current_admin.username}@restaurant.local",
         idempotency_key=idempotency_key,
     )
     return APIResponse(

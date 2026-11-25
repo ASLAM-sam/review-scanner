@@ -85,8 +85,8 @@ Serverless functions on Vercel require a persistent cloud database.
 | `ALLOWED_ORIGINS` | `https://paradise-restaurant.vercel.app` | URL of your frontend Vercel deployment |
 | `ALLOWED_ORIGIN_REGEX` | `^https:\/\/.*\.vercel\.app$` | Allows all Vercel preview and production subdomains |
 | `COOKIE_SAMESITE` | `lax` | Cookie SameSite mode |
-| `INITIAL_ADMIN_EMAIL` | `admin@restaurant.com` | Initial admin account email |
-| `INITIAL_ADMIN_PASSWORD` | `SecureAdminPassword123!` | Initial admin account password |
+| `INITIAL_ADMIN_USERNAME` | `aslam` | Initial admin account username |
+| `INITIAL_ADMIN_PASSWORD` | `aslam0077` | Initial admin account password |
 | `RESTAURANT_NAME` | `Paradise Restaurant` | Legal/display name of the restaurant |
 | `RESTAURANT_SLUG` | `paradise-restaurant` | Unique slug for QR URLs |
 | `RESTAURANT_DESCRIPTION` | `Authentic Fine Dining Cuisine` | Short bio / tagline |

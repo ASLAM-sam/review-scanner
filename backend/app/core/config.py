@@ -56,8 +56,8 @@ class Settings(BaseSettings):
     # Authentication & JWT
     ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24  # 24 hours
-    INITIAL_ADMIN_EMAIL: str = "admin@restaurant.com"
-    INITIAL_ADMIN_PASSWORD: str = "Admin@Secure123"
+    INITIAL_ADMIN_USERNAME: str = "aslam"
+    INITIAL_ADMIN_PASSWORD: str = "aslam0077"
 
     # Restaurant Installation Settings (Initial Defaults for this Installation)
     RESTAURANT_NAME: str = "Paradise Restaurant"

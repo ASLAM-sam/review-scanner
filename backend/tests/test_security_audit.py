@@ -30,7 +30,7 @@ async def test_expired_token_rejection(async_client):
     """Verify expired JWT tokens are explicitly rejected with 401."""
     past = datetime.now(timezone.utc) - timedelta(hours=2)
     expired_payload = {
-        "sub": "testadmin@restaurant.com",
+        "sub": "aslam",
         "exp": past,
         "iat": past - timedelta(minutes=30),
     }
@@ -48,7 +48,7 @@ async def test_expired_token_rejection(async_client):
 async def test_tampered_token_signature_rejection(async_client):
     """Verify tokens signed with a different key are rejected with 401."""
     fake_token = jwt.encode(
-        {"sub": "testadmin@restaurant.com", "exp": datetime.now(timezone.utc) + timedelta(hours=1)},
+        {"sub": "aslam", "exp": datetime.now(timezone.utc) + timedelta(hours=1)},
         "completely-different-signing-key-12345678",
         algorithm="HS256",
     )
@@ -64,7 +64,7 @@ async def test_inactive_admin_account_rejected(async_client, mock_db):
     """Verify deactivated admin accounts cannot access protected endpoints."""
     # Insert deactivated admin
     inactive_user = AdminUserInDB(
-        email="inactive@restaurant.com",
+        username="inactive_admin",
         hashed_password="hashed_pw_dummy",
         full_name="Inactive Admin",
         is_active=False,
@@ -73,7 +73,7 @@ async def test_inactive_admin_account_rejected(async_client, mock_db):
         inactive_user.model_dump(by_alias=False, exclude={"id"})
     )
 
-    token = create_access_token(data={"sub": "inactive@restaurant.com"})
+    token = create_access_token(data={"sub": "inactive_admin"})
     response = await async_client.get(
         "/api/v1/auth/me",
         headers={"Authorization": f"Bearer {token}"},

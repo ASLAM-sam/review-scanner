@@ -28,15 +28,15 @@ async def login_admin(
     Authenticate administrator, return signed JWT token, and set secure HttpOnly session cookie.
     Dual protection: browser uses HttpOnly cookie (XSS defense), API clients can use Bearer header.
     """
-    user = await auth_service.authenticate(db, payload.email, payload.password)
+    user = await auth_service.authenticate(db, payload.username, payload.password)
     if not user:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
-            detail="Incorrect email or password",
+            detail="Incorrect username or password",
             headers={"WWW-Authenticate": "Bearer"},
         )
 
-    token = create_access_token(data={"sub": user.email})
+    token = create_access_token(data={"sub": user.username})
     expires_in_seconds = settings.ACCESS_TOKEN_EXPIRE_MINUTES * 60
 
     # Set secure HttpOnly session cookie
@@ -90,7 +90,7 @@ async def get_current_admin_user(
         message="Current user profile retrieved",
         data=AdminUserResponse(
             id=current_admin.id,
-            email=current_admin.email,
+            username=current_admin.username,
             full_name=current_admin.full_name,
             is_active=current_admin.is_active,
         ),
