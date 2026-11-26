@@ -25,7 +25,41 @@ import type {
   PaymentHistoryResult,
 } from "../types";
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+export function getApiBaseUrl(): string {
+  // 1. Saved custom URL from client session
+  if (typeof window !== "undefined") {
+    const saved = localStorage.getItem("custom_backend_url");
+    if (saved && saved.trim()) {
+      const clean = saved.trim().replace(/\/+$/, "");
+      return clean.endsWith("/api/v1") ? clean : `${clean}/api/v1`;
+    }
+  }
+
+  // 2. Build-time environment variable
+  const envUrl = process.env.NEXT_PUBLIC_API_URL;
+  if (envUrl && envUrl.trim()) {
+    const clean = envUrl.trim().replace(/\/+$/, "");
+    return clean.endsWith("/api/v1") ? clean : `${clean}/api/v1`;
+  }
+
+  // 3. Fallback for HTTPS production (e.g. Vercel)
+  if (typeof window !== "undefined" && window.location.protocol === "https:") {
+    return "/api/v1";
+  }
+
+  // 4. Local development default
+  return "http://localhost:8000/api/v1";
+}
+
+export function setCustomBackendUrl(url: string): void {
+  if (typeof window !== "undefined") {
+    if (!url || !url.trim()) {
+      localStorage.removeItem("custom_backend_url");
+    } else {
+      localStorage.setItem("custom_backend_url", url.trim());
+    }
+  }
+}
 
 export class APIError extends Error {
   status: number;
@@ -49,12 +83,22 @@ async function request<T>(endpoint: string, options: RequestInit = {}): Promise<
     headers.set("Authorization", `Bearer ${token}`);
   }
 
-  const url = `${BASE_URL}${endpoint}`;
-  const response = await fetch(url, {
-    ...options,
-    credentials: "include",
-    headers,
-  });
+  const baseUrl = getApiBaseUrl();
+  const url = `${baseUrl}${endpoint}`;
+
+  let response: Response;
+  try {
+    response = await fetch(url, {
+      ...options,
+      credentials: "include",
+      headers,
+    });
+  } catch (networkErr: any) {
+    throw new APIError(
+      `Cannot connect to Backend API at ${baseUrl}. Please ensure the backend is running and reachable.`,
+      0
+    );
+  }
 
   if (!response.ok) {
     let errorMessage = `HTTP Error ${response.status}`;

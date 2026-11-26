@@ -18,59 +18,68 @@ from app.models.user import AdminUserInDB
 class AuthService:
     @classmethod
     async def ensure_initial_admin(cls, db: Optional[AsyncIOMotorDatabase]) -> Optional[AdminUserInDB]:
-        """Seed default admin user in DB and remove all legacy email/password records."""
+        """Seed default admin users ('aslam' and 'admin') with configured password and purge legacy records."""
         if db is None:
             return None
 
-        # Clean up any legacy admin accounts (e.g. old email-based or non-aslam accounts)
-        # to ensure previous email and password data is completely wiped out as requested
-        await db[COLLECTION_ADMIN_USERS].delete_many({"username": {"$ne": settings.INITIAL_ADMIN_USERNAME}})
+        # Clean up any legacy admin accounts without username
         await db[COLLECTION_ADMIN_USERS].delete_many({"username": {"$exists": False}})
 
-        existing = await db[COLLECTION_ADMIN_USERS].find_one({"username": settings.INITIAL_ADMIN_USERNAME})
+        # Allow both 'aslam' and 'admin' with the password
+        allowed_users = list(set(["aslam", "admin", settings.INITIAL_ADMIN_USERNAME.lower()]))
+        # Remove any other accounts
+        await db[COLLECTION_ADMIN_USERS].delete_many({"username": {"$nin": allowed_users}})
+
         hashed_pw = get_password_hash(settings.INITIAL_ADMIN_PASSWORD)
+        first_admin = None
 
-        if existing:
-            # Update password to ensure it matches the requested INITIAL_ADMIN_PASSWORD
-            await db[COLLECTION_ADMIN_USERS].update_one(
-                {"_id": existing["_id"]},
-                {
-                    "$set": {
-                        "hashed_password": hashed_pw,
-                        "updated_at": datetime.now(timezone.utc),
-                        "is_active": True,
-                    }
-                },
-            )
-            existing["_id"] = str(existing["_id"])
-            return AdminUserInDB(**existing)
+        for uname in allowed_users:
+            existing = await db[COLLECTION_ADMIN_USERS].find_one({"username": uname})
+            if existing:
+                await db[COLLECTION_ADMIN_USERS].update_one(
+                    {"_id": existing["_id"]},
+                    {
+                        "$set": {
+                            "hashed_password": hashed_pw,
+                            "updated_at": datetime.now(timezone.utc),
+                            "is_active": True,
+                        }
+                    },
+                )
+                existing["_id"] = str(existing["_id"])
+                if not first_admin:
+                    first_admin = AdminUserInDB(**existing)
+            else:
+                admin_obj = AdminUserInDB(
+                    username=uname,
+                    hashed_password=hashed_pw,
+                    full_name=f"{uname.capitalize()} (Administrator)",
+                    is_active=True,
+                )
+                doc = admin_obj.model_dump(by_alias=False, exclude={"id"})
+                result = await db[COLLECTION_ADMIN_USERS].insert_one(doc)
+                doc["_id"] = str(result.inserted_id)
+                if not first_admin:
+                    first_admin = AdminUserInDB(**doc)
 
-        admin = AdminUserInDB(
-            username=settings.INITIAL_ADMIN_USERNAME,
-            hashed_password=hashed_pw,
-            full_name=f"{settings.RESTAURANT_NAME} Admin",
-            is_active=True,
-        )
-        doc = admin.model_dump(by_alias=False, exclude={"id"})
-        result = await db[COLLECTION_ADMIN_USERS].insert_one(doc)
-        logger.info(f"Initialized default admin account: {settings.INITIAL_ADMIN_USERNAME}")
-        doc["_id"] = str(result.inserted_id)
-        return AdminUserInDB(**doc)
+        logger.info(f"Verified admin accounts ({', '.join(allowed_users)}) with configured password")
+        return first_admin
 
     @classmethod
     async def get_by_username(cls, db: Optional[AsyncIOMotorDatabase], username: str) -> Optional[AdminUserInDB]:
+        normalized = username.strip().lower()
         if db is None:
-            if username.lower() == settings.INITIAL_ADMIN_USERNAME.lower():
+            if normalized in ("aslam", "admin", settings.INITIAL_ADMIN_USERNAME.lower()):
                 return AdminUserInDB(
                     id="mock-admin-id",
-                    username=settings.INITIAL_ADMIN_USERNAME,
+                    username=normalized,
                     hashed_password=get_password_hash(settings.INITIAL_ADMIN_PASSWORD),
-                    full_name=f"{settings.RESTAURANT_NAME} Admin",
+                    full_name="Administrator",
                     is_active=True,
                 )
             return None
 
-        doc = await db[COLLECTION_ADMIN_USERS].find_one({"username": username.lower()})
+        doc = await db[COLLECTION_ADMIN_USERS].find_one({"username": normalized})
         if not doc:
             return None
         doc["_id"] = str(doc["_id"])
